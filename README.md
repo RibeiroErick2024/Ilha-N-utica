@@ -42,5 +42,5 @@ Site projetado para tela de 1366 x 641. Não responsivo.
 - Alexsandro Silva [@alexsandro1986-hub](https://github.com/alexsandro1986-hub)
 - Andrey Lopes [@andreyflopes](https://github.com/andreyflopes)
 - Enzo Lira [@ENZO-LM](https://github.com/ENZO-LM)
-- Erick Ribeiro [@ErickRibeiro2023](https://github.com/ErickRibeiro2023)
+- Erick Ribeiro [@RibeiroErick2024](https://github.com/ErickRibeiro2023)
 - Gisele Mara [@Gisele-Mara](https://github.com/Gisele-Mara)
