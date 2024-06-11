@@ -44,3 +44,14 @@ Site projetado para tela de 1366 x 641. Não responsivo.
 - Enzo Lira [@ENZO-LM](https://github.com/ENZO-LM)
 - Erick Ribeiro [@RibeiroErick2024](https://github.com/ErickRibeiro2023)
 - Gisele Mara [@Gisele-Mara](https://github.com/Gisele-Mara)
+
+## Imagens
+
+<details>
+  <summary>Ilha Náutica - Front</summary>
+  <img src="src/assets/imagens/front/Ilha-Nautica- pagina-inicial.png" alt="Página Inicial - Home">
+  <img src="src/assets/imagens/front/Ilha-Nautica-aluguel-veleiros.png" alt="Página de aluguel de veleiros">
+  <img src="src/assets/imagens/front/Ilha-Nautica-cadastro.png" alt="Cadastro do usuário">
+  <img src="src/assets/imagens/front/Ilha-Nautica-Techenema-65.png" alt="Página para alugar velereiro">
+  <img src="src/assets/imagens/front/Ilha-Nautica-cadastro-barco.png" alt="Página de cadastro de embarcação">
+</details>
