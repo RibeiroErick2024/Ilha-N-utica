@@ -5,7 +5,7 @@ let vetorHistorico = []
 
 let imgPequenas = document.getElementById("img_pequenas")
 
-imgPequenas.addEventListener("click", imagem)
+document.getElementById("img_pequenas").addEventListener("click", imagem)
 
 function imagem(evento) {
 

@@ -565,3 +565,40 @@ function procurar(event) {
 
 
 // ================ ABRIR PÁGINAS DE ALUGUEL ===========
+
+function mostrarHistorico(){
+  let vetorHistorico = JSON.parse(localStorage.getItem('vetorHistoricoUser')) || []
+  for (let i = 0; i < vetorHistorico.length; i++) {
+      console.log(vetorHistorico[i].Aluguel)
+      let containerHistorico = document.getElementById('container-historico')
+
+      let historicoDiv = document.createElement('div')
+      historicoDiv.setAttribute('id', `historico-${i}`)
+      let imagem = document.createElement('img')
+      imagem.setAttribute('src', vetorHistorico[i].ImagemBarco)
+
+      let paraAluguel = document.createElement('p')
+      paraAluguel.classList.add('spanHistorico')
+
+      let paraDias = document.createElement('p')
+      paraDias.classList.add('spanHistorico')
+
+      let paraTotal = document.createElement('p')
+      paraTotal.classList.add('spanHistorico')
+
+      // if (vetorHistorico[i].Aluguel != null) {
+          let texto = document.createTextNode(`Veículo Aquático: ${vetorHistorico[i].Aluguel}`)
+          let texto2 = document.createTextNode(`Dias reservados: ${vetorHistorico[i].Dias}`)
+          let texto3 = document.createTextNode(`Total R$: ${vetorHistorico[i].Total}`)
+          paraAluguel.appendChild(texto)
+          paraDias.appendChild(texto2)
+          paraTotal.appendChild(texto3)
+          historicoDiv.appendChild(imagem)
+          historicoDiv.appendChild(paraAluguel)
+          historicoDiv.appendChild(paraDias)
+          historicoDiv.appendChild(paraTotal)
+          containerHistorico.appendChild(historicoDiv)
+      // }
+  }
+  
+}
